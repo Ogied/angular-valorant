@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #111111;
+    height: 80px;
+    width: 100%;
+
+    div {
+        color: white;
+    }
+
+    .navbar-icon {
+        background-image: url('../assets/valorant_logo.png');
+    }
+
+    .navbar-options p:last-child {
+        margin-right: 80px;
+    }
+}

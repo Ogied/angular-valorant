@@ -1,0 +1,7 @@
+<div class="agents-list">
+    <div *ngFor="let agent of agents">
+        <app-agent [agentName]="agent.displayName"
+            [agentDescription]="agent.agentDescription"
+            [agentIcon]="agent.displayIcon"></app-agent>
+    </div>
+</div>

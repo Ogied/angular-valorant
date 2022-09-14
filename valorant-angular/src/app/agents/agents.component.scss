@@ -1,0 +1,10 @@
+.agents-list {
+    padding: 30px 50px 0 50px;
+    displaY: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-gap: 20px;
+
+    div {
+        align-self: center;
+    }
+}
